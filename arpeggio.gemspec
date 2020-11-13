@@ -3,6 +3,7 @@ require_relative 'lib/arpeggio/version'
 Gem::Specification.new do |spec|
   spec.name          = "arpeggio"
   spec.version       = Arpeggio::VERSION
+  spec.executables   = 'arpeggio'
   spec.authors       = ["William Barela"]
   spec.email         = ["william.barela.dev@gmail.com"]
 
